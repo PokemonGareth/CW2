@@ -4,7 +4,7 @@ body{
 }
 
 #bodyContent{
-    margin: 0% 10%;
+    margin: 0% 15%;
     text-align: center;
 }
 
@@ -15,14 +15,14 @@ body{
     border-radius: 20px 20px 0px 0px;
 }
 
+#navOptions{
+    margin-left: 15%;
+    padding-top: 10px;
+}
+
 a{
     color: white;
     text-decoration: none;
-}
-
-#navigation li + li:before{
-    content: " | ";
-    padding: 0 10px;
 }
 
 
