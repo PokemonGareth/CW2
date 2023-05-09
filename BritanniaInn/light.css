@@ -1,13 +1,16 @@
+/*Background*/
 body{
     background-color: #FFF9F1;
     text-align: center;
 }
 
+/*Body shape*/
 #bodyContent{
     margin: 0% 15%;
     text-align: center;
 }
 
+/*Navigation*/
 #navigation{
     background-color: #2B2D42;
     color: white;
@@ -20,10 +23,7 @@ body{
     padding-top: 10px;
 }
 
-.Inactive{
-    display: none;
-}
-
+/*Main Content Area*/
 #sides{
     background-color: #D1E3C3;
 }
@@ -98,8 +98,8 @@ body{
 #map{
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
-    height: 700px;
+    width: 50%;
+    height: 400px;
     padding-bottom: 20px;
 }
 
@@ -114,6 +114,7 @@ body{
     padding-bottom: 10px;
 }
 
+/*Footer*/
 footer{
     background-color: #2B2D42;
     color: white;

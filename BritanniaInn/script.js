@@ -1,3 +1,4 @@
+//-----NAVIGATION-----
 function homeView() {
     document.getElementById('Home').style.display = 'block';
     document.getElementById('Menu').style.display = 'none';
@@ -33,7 +34,6 @@ function contactView() {
     document.getElementById('AboutUs').style.display = 'none';
     document.getElementById('Contact').style.display = 'block';
 }
-
 
 
 
