@@ -35,6 +35,30 @@ function contactView() {
     document.getElementById('Contact').style.display = 'block';
 }
 
+//-----DARK/LIGHT MODE-----
+function toggleMode(){
+    var theme = document.getElementById("theme"); //gets the current theme from the link in the HTML
+    var themename = theme.getAttribute('href');
+
+
+    if(themename == 'light.css'){ //detects whether the href = dark mode
+        theme.setAttribute('href', 'dark.css'); //if the dark mode is enabled, it will swap over to light mode
+        localStorage.setItem('theme', 'dark');
+    }
+    else{
+        theme.setAttribute('href', 'light.css'); //if the theme is not dark mode, it will change to dark mode.
+        localStorage.setItem('theme', 'light');
+    }
+}
+
+
+var savedTheme = localStorage.getItem('theme'); //This will carry the current theme over to the other pages
+
+if (savedTheme === 'dark'){ //works out if stored theme is light and changes it if necessary
+    document.getElementById('theme').setAttribute('href', 'dark.css');
+}
+
+
 
 
 //-----MAP API-----
@@ -45,7 +69,7 @@ function initMap(){
     const brittaniaInn = {lat: 51.195041987699916, lng: -3.4657543675752445};
 
     const map = new google.maps.Map(document.getElementById('map'),{
-        zoom: 20,
+        zoom: 13,
         center: brittaniaInn,
         mapTypeId: 'satellite',
     });

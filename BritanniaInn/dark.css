@@ -1,0 +1,130 @@
+/*Background*/
+body{
+    background-color: #6F6F6F;
+    text-align: center;
+}
+
+/*Body shape*/
+#bodyContent{
+    margin: 0% 15%;
+    text-align: center;
+}
+
+/*Navigation*/
+#navigation{
+    background-color: #2B2D42;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#navOptions{
+    margin-left: 15%;
+    padding-top: 10px;
+}
+
+/*Main Content Area*/
+#sides{
+    background-color: #D1E3C3;
+}
+
+#mainContent{
+    background-color: #5D5954;
+    margin: 0% 10%;
+    color:white;
+}
+
+/*Welcome Page*/
+#eventsTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#eventsTable table tr{
+    border: 1px solid;
+}
+#eventsTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#eventsTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+#openTimes p{
+    margin: 0%;
+}
+
+/*Menu*/
+#foodTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#foodTable table tr{
+    border: 1px solid;
+}
+#foodTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#foodTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+#drinkTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#drinkTable table tr{
+    border: 1px solid;
+}
+#drinkTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#drinkTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+#drinkTable{
+    padding-bottom: 20px;
+}
+
+/*Locations*/
+
+#map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+/*About Us*/
+
+
+/*Contact*/
+#contactForm{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+/*Footer*/
+footer{
+    background-color: #2B2D42;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#FooterImage{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
