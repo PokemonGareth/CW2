@@ -60,7 +60,6 @@ if (savedTheme === 'dark'){ //works out if stored theme is light and changes it 
 
 
 
-
 //-----MAP API-----
 let map, infoWindow;
 
