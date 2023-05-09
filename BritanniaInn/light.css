@@ -20,9 +20,8 @@ body{
     padding-top: 10px;
 }
 
-a{
-    color: white;
-    text-decoration: none;
+.Inactive{
+    display: none;
 }
 
 #sides{

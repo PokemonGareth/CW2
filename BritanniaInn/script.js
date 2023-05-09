@@ -1,3 +1,42 @@
+function homeView() {
+    document.getElementById('Home').style.display = 'block';
+    document.getElementById('Menu').style.display = 'none';
+    document.getElementById('Locations').style.display = 'none';
+    document.getElementById('AboutUs').style.display = 'none';
+    document.getElementById('Contact').style.display = 'none';
+}
+function menuView() {
+    document.getElementById('Home').style.display = 'none';
+    document.getElementById('Menu').style.display = 'block';
+    document.getElementById('Locations').style.display = 'none';
+    document.getElementById('AboutUs').style.display = 'none';
+    document.getElementById('Contact').style.display = 'none';
+}
+function locView() {
+    document.getElementById('Home').style.display = 'none';
+    document.getElementById('Menu').style.display = 'none';
+    document.getElementById('Locations').style.display = 'block';
+    document.getElementById('AboutUs').style.display = 'none';
+    document.getElementById('Contact').style.display = 'none';
+}
+function aboutView() {
+    document.getElementById('Home').style.display = 'none';
+    document.getElementById('Menu').style.display = 'none';
+    document.getElementById('Locations').style.display = 'none';
+    document.getElementById('AboutUs').style.display = 'block';
+    document.getElementById('Contact').style.display = 'none';
+}
+function contactView() {
+    document.getElementById('Home').style.display = 'none';
+    document.getElementById('Menu').style.display = 'none';
+    document.getElementById('Locations').style.display = 'none';
+    document.getElementById('AboutUs').style.display = 'none';
+    document.getElementById('Contact').style.display = 'block';
+}
+
+
+
+
 //-----MAP API-----
 let map, infoWindow;
 
