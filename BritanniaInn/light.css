@@ -96,11 +96,24 @@ a{
 
 /*Locations*/
 
+#map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 700px;
+    padding-bottom: 20px;
+}
 
 /*About Us*/
 
 
 /*Contact*/
+#contactForm{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
 
 footer{
     background-color: #2B2D42;
