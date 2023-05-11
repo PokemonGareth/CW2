@@ -1,101 +1,120 @@
-/*Background*/
-body{
-    background-color: #FFF9F1;
-    text-align: center;
-}
 
-/*Body shape*/
-#bodyContent{
-    margin: 0% 15%;
-    text-align: center;
+
+/*-----MOBILE-----*/
+
+/*Page Format*/
+#Mobile #row{
+    height: 100%;
 }
 
 /*Navigation*/
-#navigation{
+#Mobile #navigation{
     background-color: #2B2D42;
     color: white;
-    padding: 20px;
-    border-radius: 20px 20px 0px 0px;
+    height: 100%;
+    width: 80px;
 }
 
-#navOptions{
-    margin-left: 15%;
-    padding-top: 10px;
+#Mobile #HamburgerIcon{
+    position: fixed;
+    top: 10px;
+    bottom: 800px;
+}
+
+#Mobile #hb {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+
+#Mobile #seperator {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+#Mobile #modeButton{
+    font-size: large;
+    position: fixed;
+    bottom: 7px;
+}
+
+#Mobile #BehindNav{
+    background-color: #2B2D42;
+    width: 80px;
 }
 
 /*Main Content Area*/
-#sides{
-    background-color: #D1E3C3;
-}
-
-#mainContent{
+#Mobile #bodyContent{
     background-color: #FFF9F1;
-    margin: 0% 10%;
+    text-align: center;
 }
 
 /*Welcome Page*/
-#eventsTable table{
+#Mobile #eventsTable table{
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
 }
-#eventsTable table tr{
+#Mobile #eventsTable table tr{
     border: 1px solid;
 }
-#eventsTable table th{
+#Mobile #eventsTable table th{
     border: 1px solid;
     padding: 5px;
 }
-#eventsTable table td{
+#Mobile #eventsTable table td{
     border: 1px solid;
     padding: 5px;
 }
 
-#openTimes p{
+#Mobile #openTimes p{
     margin: 0%;
 }
 
 /*Menu*/
-#foodTable table{
+#Mobile #foodTable table{
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
 }
-#foodTable table tr{
+#Mobile #foodTable table tr{
     border: 1px solid;
 }
-#foodTable table th{
+#Mobile #foodTable table th{
     border: 1px solid;
     padding: 5px;
 }
-#foodTable table td{
+#Mobile #foodTable table td{
     border: 1px solid;
     padding: 5px;
 }
 
-#drinkTable table{
+#Mobile #drinkTable table{
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
 }
-#drinkTable table tr{
+#Mobile #drinkTable table tr{
     border: 1px solid;
 }
-#drinkTable table th{
-    border: 1px solid;
-    padding: 5px;
-}
-#drinkTable table td{
+#DesktopandTablet #drinkTable table th{
     border: 1px solid;
     padding: 5px;
 }
-#drinkTable{
+#Mobile #drinkTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+#Mobile #drinkTable{
     padding-bottom: 20px;
 }
 
 /*Locations*/
 
-#map{
+#Mobile #map{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -107,7 +126,7 @@ body{
 
 
 /*Contact*/
-#contactForm{
+#Mobile #contactForm{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -115,14 +134,14 @@ body{
 }
 
 /*Footer*/
-footer{
+#Mobile footer{
     background-color: #2B2D42;
     color: white;
     padding: 20px;
     border-radius: 20px 20px 0px 0px;
 }
 
-#FooterImage{
+#Mobile #FooterImage{
     height: 50px;
     width: 50px;
     padding: 10px;
