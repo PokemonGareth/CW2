@@ -1,3 +1,136 @@
+/*-----DESKTOP AND TABLET-----*/
+/*Background*/
+body{
+    background-color: #FFF9F1;
+    text-align: center;
+}
+
+/*Body shape*/
+#DesktopandTablet #bodyContent{
+    margin: 0% 15%;
+    text-align: center;
+}
+
+/*Navigation*/
+#DesktopandTablet #navigation{
+    background-color: #2B2D42;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#DesktopandTablet #navOptions{
+    margin-left: 15%;
+    padding-top: 10px;
+}
+
+/*Main Content Area*/
+#DesktopandTablet #sides{
+    background-color: #D1E3C3;
+}
+
+#DesktopandTablet #mainContent{
+    background-color: #FFF9F1;
+    margin: 0% 10%;
+}
+
+/*Welcome Page*/
+#DesktopandTablet #eventsTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#DesktopandTablet #eventsTable table tr{
+    border: 1px solid;
+}
+#DesktopandTablet #eventsTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#DesktopandTablet #eventsTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+#DesktopandTablet #openTimes p{
+    margin: 0%;
+}
+
+/*Menu*/
+#DesktopandTablet #foodTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#DesktopandTablet #foodTable table tr{
+    border: 1px solid;
+}
+#DesktopandTablet #foodTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#DesktopandTablet #foodTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+#DesktopandTablet #drinkTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#DesktopandTablet #drinkTable table tr{
+    border: 1px solid;
+}
+#DesktopandTablet #drinkTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#DesktopandTablet #drinkTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+#DesktopandTablet #drinkTable{
+    padding-bottom: 20px;
+}
+
+/*Locations*/
+
+#DesktopandTablet #map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+/*About Us*/
+
+
+/*Contact*/
+#DesktopandTablet #contactForm{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+/*Footer*/
+#DesktopandTablet footer{
+    background-color: #2B2D42;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#DesktopandTablet #FooterImage{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+
+
 
 
 /*-----MOBILE-----*/
@@ -17,6 +150,7 @@
 
 #Mobile #HamburgerIcon{
     position: fixed;
+    left: 7px;
     top: 10px;
     bottom: 800px;
 }
@@ -38,7 +172,8 @@
 #Mobile #modeButton{
     font-size: large;
     position: fixed;
-    bottom: 7px;
+    left: 20px;
+    bottom: 5px;
 }
 
 #Mobile #BehindNav{

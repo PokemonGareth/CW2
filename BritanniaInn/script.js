@@ -1,3 +1,19 @@
+//-----M or D/T-----
+window.addEventListener('resize', ScreenSizeConvert());
+
+function ScreenSizeConvert(){
+    var currentWidth = window.innerWidth;
+    if (currentWidth < 450){
+        document.getElementById('Mobile').style.display = 'block';
+        document.getElementById('DesktopandTablet').style.display = 'none';
+    }
+    else{
+        document.getElementById('Mobile').style.display = 'none';
+        document.getElementById('DesktopandTablet').style.display = 'block';
+    }
+}
+
+
 //-----NAVIGATION-----
 function homeView() {
     document.getElementById('Home').style.display = 'block';

@@ -5,98 +5,97 @@ body{
 }
 
 /*Body shape*/
-#bodyContent{
+#DesktopandTablet #bodyContent{
     margin: 0% 15%;
     text-align: center;
 }
 
 /*Navigation*/
-#navigation{
+#DesktopandTablet #navigation{
     background-color: #2B2D42;
     color: white;
     padding: 20px;
     border-radius: 20px 20px 0px 0px;
 }
 
-#navOptions{
+#DesktopandTablet #navOptions{
     margin-left: 15%;
     padding-top: 10px;
 }
 
 /*Main Content Area*/
-#sides{
+#DesktopandTablet #sides{
     background-color: #D1E3C3;
 }
 
-#mainContent{
-    background-color: #5D5954;
+#DesktopandTablet #mainContent{
+    background-color: #00060E;
     margin: 0% 10%;
     color:white;
 }
 
 /*Welcome Page*/
-#eventsTable table{
+#DesktopandTablet #eventsTable table{
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
 }
-#eventsTable table tr{
+#DesktopandTablet #eventsTable table tr{
     border: 1px solid;
 }
-#eventsTable table th{
+#DesktopandTablet #eventsTable table th{
     border: 1px solid;
     padding: 5px;
 }
-#eventsTable table td{
+#DesktopandTablet #eventsTable table td{
     border: 1px solid;
     padding: 5px;
 }
 
-#openTimes p{
+#DesktopandTablet #openTimes p{
     margin: 0%;
 }
 
 /*Menu*/
-#foodTable table{
+#DesktopandTablet #foodTable table{
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
 }
-#foodTable table tr{
+#DesktopandTablet #foodTable table tr{
     border: 1px solid;
 }
-#foodTable table th{
+#DesktopandTablet #foodTable table th{
     border: 1px solid;
     padding: 5px;
 }
-#foodTable table td{
+#DesktopandTablet #foodTable table td{
     border: 1px solid;
     padding: 5px;
 }
 
-#drinkTable table{
+#DesktopandTablet #drinkTable table{
     border: 1px solid;
     margin-left: auto;
     margin-right: auto;
 }
-#drinkTable table tr{
+#DesktopandTablet #drinkTable table tr{
     border: 1px solid;
 }
-#drinkTable table th{
-    border: 1px solid;
-    padding: 5px;
-}
-#drinkTable table td{
+#DesktopandTablet #drinkTable table th{
     border: 1px solid;
     padding: 5px;
 }
-#drinkTable{
+#DesktopandTablet #drinkTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+#DesktopandTablet #drinkTable{
     padding-bottom: 20px;
 }
 
 /*Locations*/
-
-#map{
+#DesktopandTablet #map{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -108,7 +107,7 @@ body{
 
 
 /*Contact*/
-#contactForm{
+#DesktopandTablet #contactForm{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -116,14 +115,169 @@ body{
 }
 
 /*Footer*/
-footer{
+#DesktopandTablet footer{
     background-color: #2B2D42;
     color: white;
     padding: 20px;
     border-radius: 20px 20px 0px 0px;
 }
 
-#FooterImage{
+#DesktopandTablet #FooterImage{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+/*-----MOBILE-----*/
+
+/*Page Format*/
+#Mobile #row{
+    height: 100%;
+}
+
+/*Navigation*/
+#Mobile #navigation{
+    background-color: #2B2D42;
+    color: white;
+    height: 100%;
+    width: 80px;
+}
+
+#Mobile #HamburgerIcon{
+    position: fixed;
+    left: 7px;
+    top: 10px;
+    bottom: 800px;
+}
+
+#Mobile #hb {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+
+#Mobile #seperator {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+#Mobile #modeButton{
+    font-size: large;
+    position: fixed;
+    left: 20px;
+    bottom: 5px;
+}
+
+#Mobile #BehindNav{
+    background-color: #2B2D42;
+    width: 80px;
+}
+
+/*Main Content Area*/
+#Mobile #bodyContent{
+    background-color: #00060E;
+    color: white;
+    text-align: center;
+}
+
+/*Welcome Page*/
+#Mobile #eventsTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Mobile #eventsTable table tr{
+    border: 1px solid;
+}
+#Mobile #eventsTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#Mobile #eventsTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+#Mobile #openTimes p{
+    margin: 0%;
+}
+
+/*Menu*/
+#Mobile #foodTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Mobile #foodTable table tr{
+    border: 1px solid;
+}
+#Mobile #foodTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#Mobile #foodTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+#Mobile #drinkTable table{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Mobile #drinkTable table tr{
+    border: 1px solid;
+}
+#DesktopandTablet #drinkTable table th{
+    border: 1px solid;
+    padding: 5px;
+}
+#Mobile #drinkTable table td{
+    border: 1px solid;
+    padding: 5px;
+}
+#Mobile #drinkTable{
+    padding-bottom: 20px;
+}
+
+/*Locations*/
+#Mobile #map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
+/*About Us*/
+
+
+/*Contact*/
+#Mobile #contactForm{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+/*Footer*/
+#Mobile footer{
+    background-color: #2B2D42;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#Mobile #FooterImage{
     height: 50px;
     width: 50px;
     padding: 10px;
