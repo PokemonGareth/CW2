@@ -1,9 +1,7 @@
 //-----M or D/T-----
-window.addEventListener('resize', ScreenSizeConvert());
-
-function ScreenSizeConvert(){
+window.setInterval(function (){
     var currentWidth = window.innerWidth;
-    if (currentWidth < 450){
+    if (currentWidth < 500){
         document.getElementById('Mobile').style.display = 'block';
         document.getElementById('DesktopandTablet').style.display = 'none';
     }
@@ -12,43 +10,84 @@ function ScreenSizeConvert(){
         document.getElementById('DesktopandTablet').style.display = 'block';
     }
 }
+, 100);
+
 
 
 //-----NAVIGATION-----
-function homeView() {
-    document.getElementById('Home').style.display = 'block';
-    document.getElementById('Menu').style.display = 'none';
-    document.getElementById('Locations').style.display = 'none';
-    document.getElementById('AboutUs').style.display = 'none';
-    document.getElementById('Contact').style.display = 'none';
+//---DT---
+function DThomeView() {
+    document.getElementById('DTHome').style.display = 'block';
+    document.getElementById('DTMenu').style.display = 'none';
+    document.getElementById('DTLocations').style.display = 'none';
+    document.getElementById('DTAboutUs').style.display = 'none';
+    document.getElementById('DTContact').style.display = 'none';
 }
-function menuView() {
-    document.getElementById('Home').style.display = 'none';
-    document.getElementById('Menu').style.display = 'block';
-    document.getElementById('Locations').style.display = 'none';
-    document.getElementById('AboutUs').style.display = 'none';
-    document.getElementById('Contact').style.display = 'none';
+function DTmenuView() {
+    document.getElementById('DTHome').style.display = 'none';
+    document.getElementById('DTMenu').style.display = 'block';
+    document.getElementById('DTLocations').style.display = 'none';
+    document.getElementById('DTAboutUs').style.display = 'none';
+    document.getElementById('DTContact').style.display = 'none';
 }
-function locView() {
-    document.getElementById('Home').style.display = 'none';
-    document.getElementById('Menu').style.display = 'none';
-    document.getElementById('Locations').style.display = 'block';
-    document.getElementById('AboutUs').style.display = 'none';
-    document.getElementById('Contact').style.display = 'none';
+function DTlocView() {
+    document.getElementById('DTHome').style.display = 'none';
+    document.getElementById('DTMenu').style.display = 'none';
+    document.getElementById('DTLocations').style.display = 'block';
+    document.getElementById('DTAboutUs').style.display = 'none';
+    document.getElementById('DTContact').style.display = 'none';
 }
-function aboutView() {
-    document.getElementById('Home').style.display = 'none';
-    document.getElementById('Menu').style.display = 'none';
-    document.getElementById('Locations').style.display = 'none';
-    document.getElementById('AboutUs').style.display = 'block';
-    document.getElementById('Contact').style.display = 'none';
+function DTaboutView() {
+    document.getElementById('DTHome').style.display = 'none';
+    document.getElementById('DTMenu').style.display = 'none';
+    document.getElementById('DTLocations').style.display = 'none';
+    document.getElementById('DTAboutUs').style.display = 'block';
+    document.getElementById('DTContact').style.display = 'none';
 }
-function contactView() {
-    document.getElementById('Home').style.display = 'none';
-    document.getElementById('Menu').style.display = 'none';
-    document.getElementById('Locations').style.display = 'none';
-    document.getElementById('AboutUs').style.display = 'none';
-    document.getElementById('Contact').style.display = 'block';
+function DTcontactView() {
+    document.getElementById('DTHome').style.display = 'none';
+    document.getElementById('DTMenu').style.display = 'none';
+    document.getElementById('DTLocations').style.display = 'none';
+    document.getElementById('DTAboutUs').style.display = 'none';
+    document.getElementById('DTContact').style.display = 'block';
+}
+
+//---M---
+
+function MhomeView() {
+    document.getElementById('MHome').style.display = 'block';
+    document.getElementById('MMenu').style.display = 'none';
+    document.getElementById('MLocations').style.display = 'none';
+    document.getElementById('MAboutUs').style.display = 'none';
+    document.getElementById('MContact').style.display = 'none';
+}
+function MmenuView() {
+    document.getElementById('MHome').style.display = 'none';
+    document.getElementById('MMenu').style.display = 'block';
+    document.getElementById('MLocations').style.display = 'none';
+    document.getElementById('MAboutUs').style.display = 'none';
+    document.getElementById('MContact').style.display = 'none';
+}
+function MlocView() {
+    document.getElementById('MHome').style.display = 'none';
+    document.getElementById('MMenu').style.display = 'none';
+    document.getElementById('MLocations').style.display = 'block';
+    document.getElementById('MAboutUs').style.display = 'none';
+    document.getElementById('MContact').style.display = 'none';
+}
+function MaboutView() {
+    document.getElementById('MHome').style.display = 'none';
+    document.getElementById('MMenu').style.display = 'none';
+    document.getElementById('MLocations').style.display = 'none';
+    document.getElementById('MAboutUs').style.display = 'block';
+    document.getElementById('MContact').style.display = 'none';
+}
+function McontactView() {
+    document.getElementById('MHome').style.display = 'none';
+    document.getElementById('MMenu').style.display = 'none';
+    document.getElementById('MLocations').style.display = 'none';
+    document.getElementById('MAboutUs').style.display = 'none';
+    document.getElementById('MContact').style.display = 'block';
 }
 
 //-----DARK/LIGHT MODE-----

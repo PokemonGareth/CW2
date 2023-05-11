@@ -13,17 +13,21 @@
 
 <body>
 
-    <div id="DesktopandTablet" style="display: block;">
+    <div id="DesktopandTablet" style="display: none;">
         <img src="" alt="Britannia inn Logo">
 
         <div id="bodyContent">
             <div id="navigation">
                 <div class="d-flex justify-content-between" id="navOptions">
-                    <p onclick="homeView()">Home</p>
-                    <p onclick="menuView()">Menu</p>
-                    <p onclick="locView()">Locations</p>
-                    <p onclick="aboutView()">About Us</p>
-                    <p onclick="contactView()">Contact</p>
+                    <p onclick="DThomeView()">Home</p>
+                    <p>|</p>
+                    <p onclick="DTmenuView()">Menu</p>
+                    <p>|</p>
+                    <p onclick="DTlocView()">Locations</p>
+                    <p>|</p>
+                    <p onclick="DTaboutView()">About Us</p>
+                    <p>|</p>
+                    <p onclick="DTcontactView()">Contact</p>
                     <br>
                     <p onclick="toggleMode()">&#9881</p>
                 </div>
@@ -31,7 +35,7 @@
 
             <div id="sides">
                 <div id="mainContent">
-                    <section id="Home" style="display: block;">
+                    <section id="DTHome" style="display: block;">
                         <h3>Welcome to the Brittania Inn</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -68,7 +72,7 @@
                     </section>
 
 
-                    <section id="Menu" style="display: none;">
+                    <section id="DTMenu" style="display: none;">
                         <h3>Menu</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -140,7 +144,7 @@
                     </section>
 
 
-                    <section id="Locations" style="display: none;">
+                    <section id="DTLocations" style="display: none;">
                         <h3>Local Places to Visit</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -209,7 +213,7 @@
                     </section>
 
 
-                    <section id="AboutUs" style="display: none;">
+                    <section id="DTAboutUs" style="display: none;">
                         <h3>About Us</h3>
 
                         <div id="carouselExampleIndicators" class="carousel slide">
@@ -251,7 +255,7 @@
                     </section>
 
 
-                    <section id="Contact" style="display: none;">
+                    <section id="DTContact" style="display: none;">
                         <h3>Contact Us</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ab laudantium dolor adipisci
@@ -299,7 +303,7 @@
     </div>
 
 
-    <div id="Mobile" style="display: none;">
+    <div id="Mobile" style="display: block;">
         <div id="navigation">
 
             <button id="HamburgerIcon" class="btn" type="button" data-bs-toggle="offcanvas"
@@ -316,16 +320,16 @@
                     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Britannia Inn</h5>
                 </div>
                 <div class="offcanvas-body">
-                    <div id="navOptions">
-                        <p onclick="homeView()">Home</p>
+                    <div id="navOptions" style="text-align:left;">
+                        <p onclick="MhomeView()">Home</p>
                         <p id="seperator"></p>
-                        <p onclick="menuView()">Menu</p>
+                        <p onclick="MmenuView()">Menu</p>
                         <p id="seperator"></p>
-                        <p onclick="locView()">Locations</p>
+                        <p onclick="MlocView()">Locations</p>
                         <p id="seperator"></p>
-                        <p onclick="aboutView()">About Us</p>
+                        <p onclick="MaboutView()">About Us</p>
                         <p id="seperator"></p>
-                        <p onclick="contactView()">Contact</p>
+                        <p onclick="McontactView()">Contact</p>
                     </div>
                 </div>
             </div>
@@ -339,7 +343,7 @@
                 <td id="bodyContent">
                     <img src="" alt="Britannia inn Logo">
 
-                    <section id="Home" style="display: block;">
+                    <section id="MHome" style="display: block;">
                         <h3>Welcome to the Brittania Inn</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -378,7 +382,7 @@
                     </section>
 
 
-                    <section id="Menu" style="display: none;">
+                    <section id="MMenu" style="display: none;">
                         <h3>Menu</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -455,7 +459,7 @@
                     </section>
 
 
-                    <section id="Locations" style="display: none;">
+                    <section id="MLocations" style="display: none;">
                         <h3>Local Places to Visit</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -523,7 +527,7 @@
                     </section>
 
 
-                    <section id="AboutUs" style="display: none;">
+                    <section id="MAboutUs" style="display: none;">
                         <h3>About Us</h3>
 
                         <div id="carouselExampleIndicators" class="carousel slide">
@@ -568,7 +572,7 @@
                     </section>
 
 
-                    <section id="Contact" style="display: none;">
+                    <section id="MContact" style="display: none;">
                         <h3>Contact Us</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ab laudantium dolor
