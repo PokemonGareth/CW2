@@ -174,3 +174,63 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos){
 }
 
 window.initMap = initMap;
+
+
+let Mmap, MinfoWindow;
+
+function initMap(){
+
+    const brittaniaInn = {lat: 51.195041987699916, lng: -3.4657543675752445};
+
+    const Mmap = new google.maps.Map(document.getElementById('Mmap'),{
+        zoom: 13,
+        center: brittaniaInn,
+        mapTypeId: 'satellite',
+    });
+
+    const marker = new google.maps.Marker({
+        position: brittaniaInn,
+        Mmap: Mmap,
+    })
+
+    MinfoWindow = new google.maps.InfoWindow();
+
+    const locationButton = document.createElement("button");
+
+    locationButton.textContent = "Your Location";
+    locationButton.classList.add("custom-map-control-button");
+    Mmap.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
+    locationButton.addEventListener("click", () => {
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const pos = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude,
+                    };
+                    MinfoWindow.setPosition(pos);
+                    MinfoWindow.setContent("You Are Here");
+                    MinfoWindow.open(map);
+                    map.setCenter(pos);
+                },
+                () => {
+                    handleLocationError(true, MinfoWindow, Mmap.getCenter());
+                }
+            )
+        } else{
+            handleLocationError(false, MinfoWindow, Mmap.getCenter());
+        }
+    });
+}
+
+function handleLocationError(browserHasGeolocation, MinfoWindow, pos){
+    MinfoWindow.setPosition(pos);
+    MinfoWindow.setContent(
+        browserHasGeolocation
+        ? "Error: The Geolocation Service Failed."
+        : "Error: Your Browser doesn't support Geolocation."
+    );
+    MinfoWindow.open(Mmap);
+}
+
+window.initMap = initMap;
