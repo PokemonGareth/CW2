@@ -95,7 +95,6 @@ body{
 }
 
 /*Locations*/
-
 #DesktopandTablet #map{
     margin-left: auto;
     margin-right: auto;
@@ -128,9 +127,6 @@ body{
     width: 50px;
     padding: 10px;
 }
-
-
-
 
 
 /*-----MOBILE-----*/
@@ -266,18 +262,4 @@ body{
     margin-right: auto;
     width: 50%;
     padding-bottom: 10px;
-}
-
-/*Footer*/
-#Mobile footer{
-    background-color: #2B2D42;
-    color: white;
-    padding: 20px;
-    border-radius: 20px 20px 0px 0px;
-}
-
-#Mobile #FooterImage{
-    height: 50px;
-    width: 50px;
-    padding: 10px;
 }

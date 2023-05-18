@@ -13,13 +13,13 @@
 
 <body>
 
-    <div id="DesktopandTablet" style="display: none;">
-        <img src="IMages/green-banner.png" alt="Britannia inn Logo" width="100%">
+    <div id="DesktopandTablet" style="display: none;"> <!--Desktop/Tablets Version of the website-->
+        <img src="IMages/green-banner.png" alt="Britannia inn Logo" width="100%"><!--Top Banner-->
 
-        <div id="bodyContent">
-            <div id="navigation">
+        <div id="bodyContent"><!--Acts as the body for the Desktop/Tablet Version of the website-->
+            <div id="navigation"><!--Navigation Bar-->
                 <div class="d-flex justify-content-between" id="navOptions">
-                    <p onclick="DThomeView()">Home</p>
+                    <p onclick="DThomeView()">Home</p><!--Onclick changes the visibility of each section-->
                     <p>|</p>
                     <p onclick="DTmenuView()">Menu</p>
                     <p>|</p>
@@ -29,13 +29,13 @@
                     <p>|</p>
                     <p onclick="DTcontactView()">Contact</p>
                     <br>
-                    <p onclick="toggleMode()">&#9881</p>
+                    <p onclick="toggleMode()">&#9881</p><!--Dark/Light Mode Toggle-->
                 </div>
             </div>
 
-            <div id="sides">
-                <div id="mainContent">
-                    <section id="DTHome" style="display: block;">
+            <div id="sides"><!--Provides the green bars on the sides of the content-->
+                <div id="mainContent"><!--Holds he content-->
+                    <section id="DTHome" style="display: block;"><!--Navigation will change the display to none if not clicked on home-->
                         <img src="IMages/outside-pub.jpg" alt="Britannia inn">
                         <h3>Welcome to the Brittania Inn</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
@@ -47,7 +47,7 @@
                         <br>
 
                         <h3>What's On</h3>
-                        <div id="eventsTable">
+                        <div id="eventsTable"><!--Houses the Events Table-->
                             <table>
                                 <tr>
                                     <th>Events</th>
@@ -63,7 +63,7 @@
 
                         <br>
 
-                        <h3>Restaurant Opening Times</h3>
+                        <h3>Restaurant Opening Times</h3><!--Displays opening times-->
                         <div id="openTimes">
                             <p>Tuesday - Friday = 5 - 9pm</p>
                             <p>Saturday Lunch = 12 - 2pm</p>
@@ -73,7 +73,7 @@
                     </section>
 
 
-                    <section id="DTMenu" style="display: none;">
+                    <section id="DTMenu" style="display: none;"><!--hides/unhides the Menu for the Desktop/Tablet version-->
                         <h3>Menu</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -84,7 +84,7 @@
                         <br>
 
                         <h3>Food</h3>
-                        <div id="foodTable">
+                        <div id="foodTable"><!--The food menu table-->
                             <table>
                                 <tr>
                                     <th>Food</th>
@@ -115,7 +115,7 @@
                         <br>
 
                         <h3>Drink</h3>
-                        <div id="drinkTable">
+                        <div id="drinkTable"><!--The food menu table-->
                             <table>
                                 <tr>
                                     <th>Drink</th>
@@ -145,7 +145,7 @@
                     </section>
 
 
-                    <section id="DTLocations" style="display: none;">
+                    <section id="DTLocations" style="display: none;"><!--hides/unhides the locations content for the Desktop/Tablet version-->
                         <h3>Local Places to Visit</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -154,7 +154,7 @@
                             illo eius adipisci debitis?</p>
 
 
-                        <div id="carouselLocationDT" class="carousel slide">
+                        <div id="carouselLocationDT" class="carousel slide"><!--Carousel for local areas to visit-->
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselLocationDT" data-bs-slide-to="0"
                                     class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -168,7 +168,7 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="Images/minehead.jpg" class="d-block w-100" alt="minehead">
-                                    <div class="carousel-caption d-none d-md-block">
+                                    <div class="carousel-caption d-none d-md-block"><!--adds a desciption to the carousel image-->
                                         <h5>Minehead</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta neque a
                                             molestias sint ipsum odio. Dignissimos et tempore commodi libero voluptatem,
@@ -226,16 +226,16 @@
                             eligendi
                             illo eius adipisci debitis?</p>
 
-                        <div id="map"></div>
+                        <div id="map"></div><!--Where te interactive map is positioned-->
 
 
                     </section>
 
 
-                    <section id="DTAboutUs" style="display: none;">
+                    <section id="DTAboutUs" style="display: none;"><!--hides/unhides the About Us content for the Desktop/Tablet version-->
                         <h3>About Us</h3>
 
-                        <div id="carouselAboutDT" class="carousel slide">
+                        <div id="carouselAboutDT" class="carousel slide"><!--Carousel for pictures of the Inn itself-->
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselAboutDT" data-bs-slide-to="0"
                                     class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -274,7 +274,7 @@
                     </section>
 
 
-                    <section id="DTContact" style="display: none;">
+                    <section id="DTContact" style="display: none;"><!--hides/unhides the Contact content for the Desktop/Tablet version-->
                         <h3>Contact Us</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ab laudantium dolor adipisci
@@ -287,7 +287,7 @@
                         <br>
                         <h4>Contact Form</h4>
 
-                        <div id="contactForm">
+                        <div id="contactForm"><!--Will send input details to the Inn's email address-->
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -312,7 +312,7 @@
         </div>
 
         <footer>
-            <img src="Images/FacebookLogo.png" alt="Facebook Logo" id="FooterImage">
+            <img src="Images/FacebookLogo.png" alt="Facebook Logo" id="FooterImage"><!--Once social media links are provided, these can be converted to links-->
             <img src="Images/TwitterLogo.png" alt="Facebook Logo" id="FooterImage">
             <img src="Images/InstaLogo.png" alt="Facebook Logo" id="FooterImage">
             <br>
@@ -322,11 +322,11 @@
     </div>
 
 
-    <div id="Mobile" style="display: block;">
+    <div id="Mobile" style="display: block;"><!--Mobile Version of the website-->
         <div id="navigation">
 
             <button id="HamburgerIcon" class="btn" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><!--A hamburger like button used to access the offcanvas-->
                 <div id="hb"></div>
                 <div id="hb"></div>
                 <div id="hb"></div>
@@ -334,14 +334,14 @@
 
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
                 aria-labelledby="offcanvasExampleLabel"
-                style="background-color: #2B2D42; color:white; border-radius: 0px 20px 20px 0px; width: 5cm;">
+                style="background-color: #2B2D42; color:white; border-radius: 0px 20px 20px 0px; width: 5cm;"><!--the offcanvas content-->
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasExampleLabel">Britannia Inn</h5>
                 </div>
                 <div class="offcanvas-body">
                     <div id="navOptions" style="text-align:left;">
-                        <p onclick="MhomeView()">Home</p>
-                        <p id="seperator"></p>
+                        <p onclick="MhomeView()">Home</p><!--Unhides selected content whilst hiding the rest-->
+                        <p id="seperator"></p><!--Just some seperators-->
                         <p onclick="MmenuView()">Menu</p>
                         <p id="seperator"></p>
                         <p onclick="MlocView()">Locations</p>
@@ -352,17 +352,17 @@
                     </div>
                 </div>
             </div>
-            <p id="modeButton" onclick="toggleMode()">&#9881</p>
+            <p id="modeButton" onclick="toggleMode()">&#9881</p><!--Dark/Light mode toggle-->
         </div>
 
         <table>
             <tr>
-                <td id="BehindNav"></td>
+                <td id="BehindNav"></td><!--used to move the content from behind the navigation bar-->
 
-                <td id="bodyContent">
-                    <img src="IMages/green-banner-mobile.png" alt="Britannia inn Logo" width="100%">
+                <td id="bodyContent"><!--Acts as the body for the mobile section of the website-->
+                    <img src="IMages/green-banner-mobile.png" alt="Britannia inn Logo" width="100%"><!--The green banner at the top of the phone screen-->
 
-                    <section id="MHome" style="display: block;">
+                    <section id="MHome" style="display: block;"><!--hides/unhides the Home content for the Mobile version-->
                         <h3>Welcome to the Brittania Inn</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -373,7 +373,7 @@
                         <br>
 
                         <h3>What's On</h3>
-                        <div id="eventsTable">
+                        <div id="eventsTable"><!--Houses the events table-->
                             <table>
                                 <tr>
                                     <th>Events</th>
@@ -390,18 +390,18 @@
                         <br>
 
                         <h3>Restaurant Opening Times</h3>
-                        <div id="openTimes">
+                        <div id="openTimes"><!--provides users with the opening times of the Inn-->
                             <p>Tuesday - Friday = 5 - 9pm</p>
                             <p>Saturday Lunch = 12 - 2pm</p>
                             <p>Saturday nights = 5 - 9pm</p>
                             <p>Sunday Lunch = 12 - 2pm</p>
                         </div>
 
-                        <div id="Filler" style="height: 320px;"></div>
+                        <div id="Filler" style="height: 320px;"></div><!--Makes the background reach the bottom of the screen-->
                     </section>
 
 
-                    <section id="MMenu" style="display: none;">
+                    <section id="MMenu" style="display: none;"><!--hides/unhides the Menu content for the Mobile version-->
                         <h3>Menu</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -412,7 +412,7 @@
                         <br>
 
                         <h3>Food</h3>
-                        <div id="foodTable">
+                        <div id="foodTable"><!--houses the food menus items-->
                             <table>
                                 <tr>
                                     <th>Food</th>
@@ -445,7 +445,7 @@
                         <br>
 
                         <h3>Drink</h3>
-                        <div id="drinkTable">
+                        <div id="drinkTable"><!--houses the drinks menu-->
                             <table>
                                 <tr>
                                     <th>Drink</th>
@@ -474,11 +474,11 @@
                                 </tr>
                             </table>
                         </div>
-                        <div id="Filler" style="height: 20px;"></div>
+                        <div id="Filler" style="height: 20px;"></div><!--Makes the background reach the bottom of the screen-->
                     </section>
 
 
-                    <section id="MLocations" style="display: none;">
+                    <section id="MLocations" style="display: none;"><!--hides/unhides the Locations content for the Mobile version-->
                         <h3>Local Places to Visit</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus excepturi tempore quod
                             rerum
@@ -486,8 +486,8 @@
                             eligendi
                             illo eius adipisci debitis?</p>
 
-                            <div id="carouselLocationM" class="carousel slide">
-                                <div class="carousel-indicators">
+                            <div id="carouselLocationM" class="carousel slide"><!--carousel for the locations page-->
+                                <div class="carousel-indicators"><!--indicators along the bottom of the carousel-->
                                     <button type="button" data-bs-target="#carouselLocationM" data-bs-slide-to="0"
                                         class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#carouselLocationM" data-bs-slide-to="1"
@@ -500,26 +500,26 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
                                         <div class="carousel-caption d-none d-sm-block">
-                                            <h5>Minehead</h5>
+                                            <h5>Minehead</h5><!--For some reason these aren't appearing-->
                                         </div>
                                         <img src="Images/minehead.jpg" class="d-block w-100" alt="minehead">
                                     </div>
                                     <div class="carousel-item">
                                         <div class="carousel-caption d-none d-sm-block">
-                                            <h5>Exmoor National Park</h5>
+                                            <h5>Exmoor National Park</h5><!--For some reason these aren't appearing-->
                                         </div>
                                         <img src="Images/exmoor.jpg" class="d-block w-100" alt="exmoor">
                                     </div>
                                     <div class="carousel-item">
                                         <div class="carousel-caption d-none d-sm-block">
-                                            <h5>Dunster</h5>
+                                            <h5>Dunster</h5><!--For some reason these aren't appearing-->
                                         </div>
                                         <img src="Images/dunster-village.jpg" class="d-block w-100" alt="dunster-village">
                                         
                                     </div>
                                     <div class="carousel-item">
                                         <div class="carousel-caption d-none d-sm-block">
-                                            <h5>Dunster (Castle)</h5>
+                                            <h5>Dunster (Castle)</h5><!--For some reason these aren't appearing-->
                                         </div>
                                         <img src="Images/dunster-castle.jpg" class="d-block w-100" alt="dunster-castle">
                                     </div>
@@ -545,16 +545,16 @@
                             eligendi
                             illo eius adipisci debitis?</p>
 
-                        <div id="Mmap"></div>
+                        <div id="Mmap"></div><!--Where the Mobile map will be positioned-->
 
                     </section>
 
 
-                    <section id="MAboutUs" style="display: none;">
+                    <section id="MAboutUs" style="display: none;"><!--hides/unhides the About Us content for the Mobile version-->
                         <h3>About Us</h3>
 
-                        <div id="carouselAboutM" class="carousel slide">
-                            <div class="carousel-indicators">
+                        <div id="carouselAboutM" class="carousel slide"><!--carousel for the About Us page-->
+                            <div class="carousel-indicators"><!--indicators along the bottom of the carousel-->
                                 <button type="button" data-bs-target="#carouselAboutM" data-bs-slide-to="0"
                                     class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselAboutM" data-bs-slide-to="1"
@@ -562,7 +562,7 @@
                                 <button type="button" data-bs-target="#carouselAboutM" data-bs-slide-to="2"
                                     aria-label="Slide 3"></button>
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner"><!--contains the items within the carousel-->
                                 <div class="carousel-item active">
                                     <img src="Images/outside-pub.jpg" class="d-block w-100" alt="outside the inn">
                                 </div>
@@ -591,11 +591,11 @@
                             molestiae.
                             Et doloremque, perferendis saepe nobis officiis ex accusamus.</p>
 
-                        <div id="Filler" style="height: 575px;"></div>
+                        <div id="Filler" style="height: 575px;"></div><!--Makes the background reach the bottom of the screen-->
                     </section>
 
 
-                    <section id="MContact" style="display: none;">
+                    <section id="MContact" style="display: none;"><!--hides/unhides the Contact Us content for the Mobile version-->
                         <h3>Contact Us</h3>
 
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ab laudantium dolor
@@ -610,7 +610,7 @@
                         <br>
                         <h4>Contact Form</h4>
 
-                        <div id="contactForm">
+                        <div id="contactForm"><!--Will send input details to the Inn's email address-->
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -627,7 +627,7 @@
                             </div>
                             <input type="submit" value="Submit">
                         </div>
-                        <div id="Filler" style="height: 70px;"></div>
+                        <div id="Filler" style="height: 70px;"></div><!--Makes the background reach the bottom of the screen-->
                     </section>
                 </td>
             </tr>

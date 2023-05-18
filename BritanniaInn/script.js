@@ -92,30 +92,30 @@ function McontactView() {
 
 //-----DARK/LIGHT MODE-----
 function toggleMode(){
-    var theme = document.getElementById("theme"); //gets the current theme from the link in the HTML
+    var theme = document.getElementById("theme");
     var themename = theme.getAttribute('href');
 
 
-    if(themename == 'light.css'){ //detects whether the href = dark mode
-        theme.setAttribute('href', 'dark.css'); //if the dark mode is enabled, it will swap over to light mode
+    if(themename == 'light.css'){
+        theme.setAttribute('href', 'dark.css');
         localStorage.setItem('theme', 'dark');
     }
     else{
-        theme.setAttribute('href', 'light.css'); //if the theme is not dark mode, it will change to dark mode.
+        theme.setAttribute('href', 'light.css');
         localStorage.setItem('theme', 'light');
     }
 }
 
 
-var savedTheme = localStorage.getItem('theme'); //This will carry the current theme over to the other pages
+var savedTheme = localStorage.getItem('theme');
 
-if (savedTheme === 'dark'){ //works out if stored theme is light and changes it if necessary
+if (savedTheme === 'dark'){
     document.getElementById('theme').setAttribute('href', 'dark.css');
 }
 
 
 
-//-----MAP API-----
+//-----DESKTOP/TABLET MAP API-----
 let map, infoWindow;
 
 function initMap(){
@@ -176,6 +176,7 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos){
 window.initMap = initMap;
 
 
+//-----MOBILE MAP API-----
 let Mmap, MinfoWindow;
 
 function initMap(){
